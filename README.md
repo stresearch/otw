@@ -41,7 +41,8 @@ entering				342
 carrying (large)		307
 pushing cart			90
 opening trunk			289
-closing door			925```
+closing door			925
+```
 
 ```OTW-Lots:
 Activity Type			Quantity
@@ -53,7 +54,8 @@ talking on phone		3
 texting on phone		5
 vehicle turning left 	137
 vehicle turning right	161
-vehicle u-turn			1```
+vehicle u-turn			1
+```
 
 ## File structure
 
@@ -67,7 +69,7 @@ lots/annotations.csv
 
 ## Annotation format
 
-Annotation files, each a CSV with schema:
+Annotation files are CSV format with schema:
 
 [Video ID, Activity ID, Actor ID, Activity or Object Type, Frame Number, XMin, YMin, XMax, YMax, Labeled]
 
@@ -95,6 +97,7 @@ Labeled:
 A boolean indicating whether or not a frame was Human Labeled (True) or Interpolated (False).  We used a combination of tracking and linear interpolation to generate bounding boxes in between the start and end frames of annotation by a human annotator.
 
 Example annotations for a single activity from ./homes/annotations.csv:
+
 ```00000,0,00038,dismounting bike,252,82,1165,255,1586,True
 00000,0,00038,person,252,85,1165,211,1446,True
 00000,0,00038,bicycle,253,103,1230,250,1458,False
@@ -105,7 +108,8 @@ Example annotations for a single activity from ./homes/annotations.csv:
 00000,0,00038,person,254,85,1165,211,1446,False
 00000,0,00038,bicycle,255,102,1226,255,1449,False
 00000,0,00038,dismounting bike,255,85,1165,255,1449,False
-00000,0,00038,person,255,85,1165,211,1446,False```
+00000,0,00038,person,255,85,1165,211,1446,False
+```
 
 Frames are 0-indexed.  Given an Activity Directory (homes|lots) and a Frame Number, the absolute path of an frame image filename is:
 
@@ -119,7 +123,8 @@ d_otw_to_diva.json
 OTW Labels and DIVA Laels aren't the same - example:
 ```OTW : DIVA
 "carrying (large)":"transport_heavycarry",
-"pushing cart":"pull"```
+"pushing cart":"pull"
+```
 
 d_otw_to_diva is a python dictionary that maps OTW label string to their equivalent DIVA label string.
 

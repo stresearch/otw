@@ -110,7 +110,8 @@ Example annotations for a single activity from ./homes/annotations.csv:
 
 Frames are 0-indexed.  Given an Activity Directory (homes|lots) and a Frame Number, the python snippet for the absolute path of an frame image filename is:
 
-```img_file_name = os.path.join(".", "homes", "%08d.jpg" % framenum)
+```
+img_file_name = os.path.join(".", "homes", "%08d.jpg" % framenum)
 ```
 
 ## OTW to DIVA annotation

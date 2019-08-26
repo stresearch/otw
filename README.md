@@ -33,7 +33,7 @@ loading vehicle			332
 opening door			931
 talking on phone		172
 texting on phone		334
-exiting			334
+exiting			  334
 dismounting bike		192
 conversation			372
 riding bike			166
@@ -52,8 +52,8 @@ entering 			1
 opening door			2
 talking on phone		3
 texting on phone		5
-vehicle turning left  	137
-vehicle turning right	  161
+vehicle turning left    	137
+vehicle turning right	   161
 vehicle u-turn			1
 ```
 

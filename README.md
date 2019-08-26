@@ -4,12 +4,6 @@ The Out the Window (OTW) dataset is a crowdsourced activity dataset containing 5
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PB_FejlIlhc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Reference
-
-If you use this dataset we ask that you cite:
-
-G. Castanon, N. Shnidman, T. Anderson and J. Byrne, Out the Window: A Crowd-Sourced Dataset for Activity Classification in Surveillance Video, arXiv 2019
-
 
 ## OTW Dataset Description
 
@@ -144,6 +138,12 @@ The OTW-Lots dataset frame extraction requites 2.8TB.  Allocate drive space acco
 ## License
 
 Creative commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))
+
+## Reference
+
+If you use this dataset we ask that you cite:
+
+G. Castanon, N. Shnidman, T. Anderson and J. Byrne, Out the Window: A Crowd-Sourced Dataset for Activity Classification in Surveillance Video, arXiv 2019
 
 ## Contact
 

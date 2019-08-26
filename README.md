@@ -109,7 +109,7 @@ Example annotations for a single activity from ./homes/annotations.csv:
 00000,0,00038,person,255,85,1165,211,1446,False
 ```
 
-Frames are 0-indexed.  Given an Activity Directory (homes|lots) and a Frame Number, the python snippet for the absolute path of an frame image filename is:
+Frames are 0-indexed.  Given an Activity Directory (homes or lots) and a Frame Number, the python snippet for the absolute path of an frame image filename is:
 
 ```
 img_file_name = os.path.join(".", "homes", "%08d.jpg" % framenum)

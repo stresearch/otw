@@ -73,8 +73,7 @@ Annotation files are CSV format with schema:
 
 [Video ID, Activity ID, Actor ID, Activity or Object Type, Frame Number, XMin, YMin, XMax, YMax, Labeled]
 
-* Video ID: A globally unique ID assigned to each video for each dataset.   Each Homes video is located in homes/video/VIDEO_ID.mp4.  
-Each Lots video is located in lots/video/VIDEO_ID.mp4
+* Video ID: A globally unique ID assigned to each video for each dataset.   Each Homes video is located in homes/video/VIDEO_ID.mp4. Each Lots video is located in lots/video/VIDEO_ID.mp4
 
 * Activity ID:
 A unique ID assigned to each activity within a specific dataset (lots or homes).

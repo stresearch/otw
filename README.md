@@ -17,7 +17,7 @@ This dataset features two parts - the Homes and Lots collections.  The Homes col
 
 Annotation Instructions for the collected video can be found here:  
 
-[https://docs.google.com/document/d/1Fks80zmtdc6CWL6CxKxQNB6BIoCeRynqBUFAzWRxUU0/edit?usp=sharing]
+<https://docs.google.com/document/d/1Fks80zmtdc6CWL6CxKxQNB6BIoCeRynqBUFAzWRxUU0/edit?usp=sharing>
 
 Note that this annotation document includes a total of 24 activities, but the dataset included here includes a total of 20 unique activities.
 
@@ -95,7 +95,8 @@ A boolean indicating whether or not a frame was Human Labeled (True) or Interpol
 
 Example annotations for a single activity from ./homes/annotations.csv:
 
-```00000,0,00038,dismounting bike,252,82,1165,255,1586,True
+```
+00000,0,00038,dismounting bike,252,82,1165,255,1586,True
 00000,0,00038,person,252,85,1165,211,1446,True
 00000,0,00038,bicycle,253,103,1230,250,1458,False
 00000,0,00038,dismounting bike,253,85,1165,250,1458,False
@@ -118,7 +119,8 @@ img_file_name = os.path.join(".", "homes", "%08d.jpg" % framenum)
 
 d_otw_to_diva.json is a JSON dictionary that maps OTW label string to their equivalent DIVA label string.  For example:
 
-```OTW : DIVA
+```
+OTW : DIVA
 "carrying (large)":"transport_heavycarry",
 "pushing cart":"pull"
 ```
@@ -129,7 +131,8 @@ A python3.x script for extracting frames from either the homes or lots datasets.
 
 Usage:  
 
-```pip3 install imageio imageio-ffmpeg
+```
+pip3 install imageio imageio-ffmpeg
 python3 extract_frames.py homes 
 python3 extract_frames.py lots
 ```

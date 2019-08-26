@@ -135,6 +135,12 @@ This export will take a while, and will extract frames to ./homes/frames/*
 
 The OTW-Lots dataset frame extraction requites 2.8TB.  Allocate drive space accordingly.
 
+## Errata
+
+* An unlabeled subset of these videos are created by holding the camera by hand rather than leaning it against the window, which results in unstabilized video
+* Mounting and Dismounting bike class typically also includes when a bike is being walked 
+* Videos are not exhuastively labeled, such that there exist videos where an activity class occurs (e.g. entering) where the activity is not labeled.  
+
 ## License
 
 Creative commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))

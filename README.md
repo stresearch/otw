@@ -73,27 +73,25 @@ Annotation files are CSV format with schema:
 
 [Video ID, Activity ID, Actor ID, Activity or Object Type, Frame Number, XMin, YMin, XMax, YMax, Labeled]
 
-Video ID:
-A globally unique ID assigned to each video for each dataset.  
-Each Homes video is located in homes/video/<Video ID>.mp4.  
+* Video ID:A globally unique ID assigned to each video for each dataset.   Each Homes video is located in homes/video/<Video ID>.mp4.  
 Each Lots video is located in lots/video/<Video ID>.mp4
 
-Activity ID:
+* Activity ID:
 A unique ID assigned to each activity within a specific dataset (lots or homes).
 
-Actor ID: 
+* Actor ID: 
 A unique ID assigned to each actor.  If we are not sure of the actor, this will be None.  
 
-Activity Type:
+* Activity Type:
 A label for the activity or object in the annotation
 
-Frame Number:
+* Frame Number:
 The frame number of the annotation.  Frame numbers correspond to the output of extract_frames.py
 
-XMin, YMin, XMax, YMax: 
+* XMin, YMin, XMax, YMax: 
 The bounding box of the annotation defining the upper left corner (XMin, YMin) and bottom right corner (XMax, YMax) in image coordinates, where X=column index, Y=row index in image coordinates.
 
-Labeled: 
+* Labeled: 
 A boolean indicating whether or not a frame was Human Labeled (True) or Interpolated (False).  We used a combination of tracking and linear interpolation to generate bounding boxes in between the start and end frames of annotation by a human annotator.
 
 Example annotations for a single activity from ./homes/annotations.csv:

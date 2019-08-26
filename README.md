@@ -1,4 +1,4 @@
-The Out the Window (OTW) dataset is a crowdsourced activity dataset containing 5,853 instances of 16 activities from the NIST Activities in Extended Video (ActEV) challenge.  These videos are crowdsourced from workers on the Amazon Mechanical Turk using a novel ``scenario acting'' strategy, which collects multiple instances of natural activities per scenario.  Turkers are instructed to lean their mobile device against an upper story window overlooking an outdoor space, walk outside to perform a scenario involving people, vehicles and objects, and finally upload the video to us for annotation.  Performance evaluation for activity classification on VIRAT Ground 2.0 \cite{oh2011large} shows that the OTW dataset provides an 8.3\% improvement in mean classification accuracy, and a 12.5\% improvement on the most challenging activities involving people with vehicles. 
+The Out the Window (OTW) dataset is a crowdsourced activity dataset containing 5,853 instances of 16 activities from the NIST Activities in Extended Video (ActEV) challenge.  These videos are crowdsourced from workers on the Amazon Mechanical Turk using a novel ``scenario acting'' strategy, which collects multiple instances of natural activities per scenario.  Turkers are instructed to lean their mobile device against an upper story window overlooking an outdoor space, walk outside to perform a scenario involving people, vehicles and objects, and finally upload the video to us for annotation.  Performance evaluation for activity classification on VIRAT Ground 2.0 shows that the OTW dataset provides an 8.3\% improvement in mean classification accuracy, and a 12.5\% improvement on the most challenging activities involving people with vehicles. 
 
 ## Visualization
 
@@ -8,10 +8,10 @@ The Out the Window (OTW) dataset is a crowdsourced activity dataset containing 5
 
 If you use this dataset we ask that you cite:
 
-G. Castanon, N. Shnidman, T. Anderson and J. Byrne, Out the Window: A Crowd-Sourced Dataset for Activity Classification inSurveillance Video, arXiv 2019
+G. Castanon, N. Shnidman, T. Anderson and J. Byrne, Out the Window: A Crowd-Sourced Dataset for Activity Classification in Surveillance Video, arXiv 2019
 
 
-# OTW Dataset Description
+## OTW Dataset Description
 
 This dataset features two parts - the Homes and Lots collections.  The Homes collection was created by workers on the Amazon Mechanical Turk, while the LOTS dataset was collected on-site at STR.
 
@@ -140,17 +140,17 @@ This export will take a few hours, and will extract frames to ./homes/frames/*
 
 The OTW-Lots dataset frame extraction requites 2.8TB.  Allocate drive space and parallelize accordingly.
 
-# License
+## License
 
 Creative commons Attribution 4.0 International (CC BY 4.0)
 
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
-# Contact
+## Contact
 
 Gregory Castanon <gregory.castanon@stresearch.com>  
 Jeffrey Byrne <jeffrey.byrne@stresearch.com>  
 
-# Acknowledgement
+## Acknowledgement
 
 Supported by the Intelligence Advanced Research Projects Activity (IARPA) via Department of Interior/ Interior Business Center (DOI/IBC) contract number D17PC00344. The U.S. Government is authorized to reproduce and distribute reprints for Governmental purposes notwithstanding any copyright annotation thereon. Disclaimer: The views and conclusions contained herein are those of the authors and should not be interpreted as necessarily representing the official policies or endorsements, either expressed or implied, of IARPA, DOI/IBC, or the U.S. Government.

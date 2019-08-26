@@ -73,8 +73,8 @@ Annotation files are CSV format with schema:
 
 [Video ID, Activity ID, Actor ID, Activity or Object Type, Frame Number, XMin, YMin, XMax, YMax, Labeled]
 
-* Video ID: A globally unique ID assigned to each video for each dataset.   Each Homes video is located in homes/video/<Video ID>.mp4.  
-Each Lots video is located in lots/video/<Video ID>.mp4
+* Video ID: A globally unique ID assigned to each video for each dataset.   Each Homes video is located in homes/video/VIDEO_ID.mp4.  
+Each Lots video is located in lots/video/VIDEO_ID.mp4
 
 * Activity ID:
 A unique ID assigned to each activity within a specific dataset (lots or homes).
@@ -116,16 +116,12 @@ Frames are 0-indexed.  Given an Activity Directory (homes|lots) and a Frame Numb
 
 ## OTW to DIVA annotation
 
-d_otw_to_diva.json
+d_otw_to_diva.json is a JSON dictionary that maps OTW label string to their equivalent DIVA label string.  For example:
 
-OTW Labels and DIVA Laels aren't the same - example:
 ```OTW : DIVA
 "carrying (large)":"transport_heavycarry",
 "pushing cart":"pull"
 ```
-
-d_otw_to_diva is a JSON dictionary that maps OTW label string to their equivalent DIVA label string.
-
 
 ## Frame extraction
 
@@ -138,9 +134,9 @@ python3 extract_frames.py homes
 python3 extract_frames.py lots
 ```
 
-This export will take a few hours, and will extract frames to ./homes/frames/*
+This export will take a while, and will extract frames to ./homes/frames/*
 
-The OTW-Lots dataset frame extraction requites 2.8TB.  Allocate drive space and parallelize accordingly.
+The OTW-Lots dataset frame extraction requites 2.8TB.  Allocate drive space accordingly.
 
 ## License
 

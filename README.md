@@ -53,7 +53,7 @@ opening door			2
 talking on phone		3
 texting on phone		5
 vehicle turning left    	137
-vehicle turning right	         161
+vehicle turning right	        161
 vehicle u-turn			1
 ```
 

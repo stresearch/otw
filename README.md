@@ -23,7 +23,7 @@ Note that this annotation document includes a total of 24 activities, but the da
 
 ## Dataset statistics
 
-OTW-Homes:
+```OTW-Homes:
 Activity Type			Quantity
 carrying (small)		372
 closing trunk			293
@@ -41,10 +41,10 @@ entering				342
 carrying (large)		307
 pushing cart			90
 opening trunk			289
-closing door			925
+closing door			925```
 
 
-OTW-Lots:
+```OTW-Lots:
 Activity Type			Quantity
 carrying (small)		8
 closing door 			3
@@ -54,7 +54,7 @@ talking on phone		3
 texting on phone		5
 vehicle turning left 	137
 vehicle turning right	161
-vehicle u-turn			1
+vehicle u-turn			1```
 
 ## File structure
 
@@ -72,27 +72,27 @@ Annotation files, each a CSV with schema:
 
 [Video ID, Activity ID, Actor ID, Activity or Object Type, Frame Number, XMin, YMin, XMax, YMax, Labeled]
 
-Video ID - 
+Video ID:
 A globally unique ID assigned to each video for each dataset.  
 Each Homes video is located in homes/video/<Video ID>.mp4.  
 Each Lots video is located in lots/video/<Video ID>.mp4
 
-Activity ID - 
+Activity ID:
 A unique ID assigned to each activity within a specific dataset (lots or homes).
 
-Actor ID - 
+Actor ID: 
 A unique ID assigned to each actor.  If we are not sure of the actor, this will be None.  
 
-Activity Type - 
+Activity Type:
 A label for the activity or object in the annotation
 
-Frame Number -
+Frame Number:
 The frame number of the annotation.  Frame numbers correspond to the output of extract_frames.py
 
-XMin, YMin, XMax, YMax - 
-The bounding box of the annotation defining the upper left corner (XMin, YMin) and bottom right corner (XMax, YMax) in image coordinates, where X=column Y=row index in image coordinates.
+XMin, YMin, XMax, YMax: 
+The bounding box of the annotation defining the upper left corner (XMin, YMin) and bottom right corner (XMax, YMax) in image coordinates, where X=column index, Y=row index in image coordinates.
 
-Labeled - 
+Labeled: 
 A boolean indicating whether or not a frame was Human Labeled (True) or Interpolated (False).  We used a combination of tracking and linear interpolation to generate bounding boxes in between the start and end frames of annotation by a human annotator.
 
 Example annotations for a single activity from ./homes/annotations.csv:
@@ -118,11 +118,11 @@ Frames are 0-indexed.  Given an Activity Directory (homes|lots) and a Frame Numb
 d_otw_to_diva.json
 
 OTW Labels and DIVA Laels aren't the same - example:
-OTW : DIVA
-'carrying (large)':'transport_heavycarry',
-'pushing cart':'pull'
+```OTW : DIVA
+"carrying (large)":"transport_heavycarry",
+"pushing cart":"pull"```
 
-d_otw_to_diva is a dictionary that maps OTW label string to their equivalent DIVA label string 
+d_otw_to_diva is a python dictionary that maps OTW label string to their equivalent DIVA label string.
 
 
 ## Frame extraction
@@ -132,7 +132,7 @@ A python3.x script for extracting frames from either the homes or lots datasets.
 Usage:  
 
 ```pip3 install imageio imageio-ffmpeg
-python3 extract_frames.py homes
+python3 extract_frames.py homes 
 python3 extract_frames.py lots
 ```
 

@@ -124,7 +124,7 @@ OTW Labels and DIVA Laels aren't the same - example:
 "pushing cart":"pull"
 ```
 
-d_otw_to_diva is a python dictionary that maps OTW label string to their equivalent DIVA label string.
+d_otw_to_diva is a JSON dictionary that maps OTW label string to their equivalent DIVA label string.
 
 
 ## Frame extraction

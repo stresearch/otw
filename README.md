@@ -33,7 +33,7 @@ loading vehicle			332
 opening door			931
 talking on phone		172
 texting on phone		334
-exiting			  334
+exiting			    334
 dismounting bike		192
 conversation			372
 riding bike			166

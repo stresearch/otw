@@ -148,7 +148,7 @@ Creative commons Attribution 4.0 International ([CC BY 4.0](https://creativecomm
 
 ## Contact
 
-Gregory Castanon  <<gregory.castanon@stresearch.com>>
+Gregory Castanon  <<gregory.castanon@stresearch.com>>    
 Jeffrey Byrne <<jeffrey.byrne@stresearch.com>>  
 
 ## Acknowledgement

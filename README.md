@@ -59,12 +59,12 @@ vehicle u-turn			1
 
 ## File structure
 
-homes/videos/
+homes/videos/    
 lots/videos/
 
 Videos containing activities of interest.  Unlike some activity datasets, these videos contain multiple activities of interest; annotations of these activities are provided in the accompanying annotation csvs.
 
-homes/annotations.csv
+homes/annotations.csv    
 lots/annotations.csv
 
 ## Annotation format

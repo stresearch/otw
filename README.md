@@ -149,7 +149,7 @@ Creative commons Attribution 4.0 International ([CC BY 4.0](https://creativecomm
 
 ## Reference
 
-If you use this dataset we ask that you cite:
+If you use this dataset, we ask that you cite:
 
 G. Castanon, N. Shnidman, T. Anderson and J. Byrne, Out the Window: A Crowd-Sourced Dataset for Activity Classification in Surveillance Video, arXiv 2019
 

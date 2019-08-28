@@ -23,19 +23,19 @@ carrying (large)                  288
 carrying (small)                  364
 closing door                    898
 closing trunk                   278
-conversation    372
-dismounting bike    183
-entering    333
-exiting   325
-loading vehicle   320
-mounting bike   69
-opening door    907
-opening trunk   277
-pushing cart    88
-riding bike   146
-talking on phone    170
-texting on phone    328
-unloading vehicle   322
+conversation                372
+dismounting bike                183
+entering                333
+exiting               325
+loading vehicle               320
+mounting bike               69
+opening door                907
+opening trunk               277
+pushing cart               88
+riding bike               146
+talking on phone                170
+texting on phone                328
+unloading vehicle               322
 
 ```
 

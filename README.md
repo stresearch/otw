@@ -1,11 +1,15 @@
 The Out the Window (OTW) dataset is a crowdsourced activity dataset containing 5,668 instances of 17 activities from the NIST Activities in Extended Video (ActEV) challenge.  These videos are crowdsourced from workers on the Amazon Mechanical Turk using a novel scenario acting strategy, which collects multiple instances of natural activities per scenario.  Turkers are instructed to lean their mobile device against an upper story window overlooking an outdoor space, walk outside to perform a scenario involving people, vehicles and objects, and finally upload the video to us for annotation.  Performance evaluation for activity classification on VIRAT Ground 2.0 shows that the OTW dataset provides an 8.3% improvement in mean classification accuracy, and a 12.5% improvement on the most challenging activities involving people with vehicles. 
 
+## Download
+
+[otw.tar.gz (48GB)](https://dropbox.com)
+
 ## Visualization
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MrIN959JuV8?start=7395" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-## OTW Dataset Description
+## Dataset Description
 
 This dataset features two parts - the Homes and Lots collections.  The Homes collection was created by workers on the Amazon Mechanical Turk, while the LOTS dataset was collected on-site at STR.
 
@@ -150,7 +154,7 @@ Creative commons Attribution 4.0 International ([CC BY 4.0](https://creativecomm
 
 If you use this dataset, we ask that you cite:
 
-G. Castanon, N. Shnidman, T. Anderson and J. Byrne, Out the Window: A Crowd-Sourced Dataset for Activity Classification in Surveillance Video, arXiv 2019
+G. Castanon, N. Shnidman, T. Anderson and J. Byrne, Out the Window: A Crowd-Sourced Dataset for Activity Classification in Surveillance Video, arXiv:submit/2806709, 2019
 
 ## Contact
 

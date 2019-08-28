@@ -2,7 +2,7 @@ The Out the Window (OTW) dataset is a crowdsourced activity dataset containing 5
 
 ## Visualization
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MrIN959JuV8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MrIN959JuV8?start=7047" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## OTW Dataset Description

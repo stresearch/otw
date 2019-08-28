@@ -128,13 +128,12 @@ Usage:
 
 ```
 pip3 install imageio imageio-ffmpeg
-python3 extract_frames.py homes 
+python3 extract_frames.py homes 10 5
 python3 extract_frames.py lots
 ```
 
-This export will take a while, and will extract frames to ./homes/frames/*
+This export will take a while, and will extract frames to ./homes/frames.  This will parallelize the extraction over 10 workers (optionally can be increased or decreased) with the PNG compression level of 5 (1=worst, 9=best).  
 
-The OTW-Lots dataset frame extraction requites 2.8TB.  Allocate drive space accordingly.
 
 ## Errata
 

@@ -18,38 +18,38 @@ Note that this annotation document includes a total of 24 activities, but the da
 ## Dataset statistics
 
 ```OTW-Homes:
-Activity Type			Quantity
-carrying (large)                  288
-carrying (small)                  364
-closing door                    898
-closing trunk                   278
-conversation                372
-dismounting bike                183
-entering                333
-exiting               325
-loading vehicle               320
-mounting bike               69
-opening door                907
-opening trunk               277
-pushing cart               88
-riding bike               146
-talking on phone                170
-texting on phone                328
-unloading vehicle               322
+Activity Type: Quantity
+carrying (large): 288
+carrying (small): 364
+closing door: 898
+closing trunk: 278
+conversation: 372
+dismounting bike: 183
+entering: 333
+exiting: 325
+loading vehicle: 320
+mounting bike: 69
+opening door: 907
+opening trunk: 277
+pushing cart: 88
+riding bike: 146
+talking on phone: 170
+texting on phone: 328
+unloading vehicle: 322
 
 ```
 
 ```OTW-Lots:
-Activity Type			Quantity
-carrying (small)		8
-closing door 			3
-entering 			1
-opening door			2
-talking on phone		3
-texting on phone		5
-vehicle turning left    	137
-vehicle turning right	        161
-vehicle u-turn			1
+Activity Type: Quantity
+carrying (small): 8
+closing door: 3
+entering: 1
+opening door: 2
+talking on phone: 3
+texting on phone: 5
+vehicle turning left: 137
+vehicle turning right: 161
+vehicle u-turn: 1
 ```
 
 ## File structure

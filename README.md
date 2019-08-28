@@ -19,10 +19,10 @@ Note that this annotation document includes a total of 24 activities, but the da
 
 ```OTW-Homes:
 Activity Type			Quantity
-carrying (large)      288
-carrying (small)      364
-closing door    898
-closing trunk   278
+carrying (large)                  288
+carrying (small)                  364
+closing door                    898
+closing trunk                   278
 conversation    372
 dismounting bike    183
 entering    333
